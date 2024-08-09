@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 16px 0px;
+  background-color: rgba(241, 86, 177, 0.562);
+  color: #ecf0f1;
+  font-family: "Inconsolata", monospace;
+}
+
+header .container,
+section .container {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
+.halsey-pic {
+  width: 30%;
+  margin: 16px 16px 16px 0;
+}
+
+header li {
+  display: inline;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+header li a {
+  color: #f5f6fa;
+  text-decoration: none;
+}
+
+header li a:hover {
+  text-decoration: underline;
+}
+
+#about {
+  display: flex;
+}
+
+#about h2 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(212, 0, 99);
+  color: #ecf0f1;
+  font-weight: bolder;
+}
+
+#about p {
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 18px;
+}
+
+#about li {
+  display: flex;
+  justify-content:space-around;
+}
+
+#about li a { 
+  text-decoration: none;
+  color: rgb(212, 0, 99);
+  font-weight: bolder;
+  margin-top: 6px;
+}
+
+.container { 
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.articles article iframe {
+  max-width: 1280px;
+  width: 30%;
+  margin: 7px 0;
+}
+
+.articles article img {
+  max-width:1280px;
+  width: 25%;
+  margin: 7px 0;
+}
+
+.articles article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+#music .container {
+  display: inline;
+}
+
+#music header {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(3, 0, 2);
+  color: #ecf0f1;
+  font-family: "Inconsolata", monospace;
+}
+
+#movies .container {
+  display: inline;
+}
+
+#movies header {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(3, 0, 2);
+  color: #ecf0f1;
+  font-family: "Inconsolata", monospace;
+}
+
+#series .container {
+  display: inline;
+}
+
+#series header {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: rgb(3, 0, 2);
+  color: #ecf0f1;
+  font-family: "Inconsolata", monospace;
+}
+
+.social-links img {
+  height: 24px;
+}
+
+.social-links li {
+  display: inline;
+  margin-right: 8px;
+}
+
+.social-links li a {
+  text-decoration: none;
+}
+
+#contact .container {
+  display: block;
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 16px;
+  
+}
+
+
+form input, form textarea, form button {
+  font-family: "Lato", sans-serif;
+  display: block;
+  width: 320px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+form textarea {
+  resize: none;
+  height: 100px;
+}
+
+section h3 {
+  margin-top: 16px;
+  margin-bottom: 14px;
+}
+
+section h2 {
+  font-family: "Lato", sans-serif;
+  margin-top: 16px;
+}
+
+form button {
+  background-color:rgb(212, 0, 99);
+  color: #ecf0f1;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color:rgb(247, 76, 156);
+}
+
+input:focus, textarea:focus {
+  outline-color:rgb(212, 0, 99);
+
+}
+
+footer {
+  font-family: "Lato", sans-serif;
+  background-color: rgba(241, 86, 177, 0.562);
+  color: #ecf0f1;
+  padding: 16px;
+}
